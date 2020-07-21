@@ -18,7 +18,7 @@
     <body>
         
         <?php require_once 'Menu.php'; ?>
-     
+      <?php require_once 'whats.php'; ?>
         <div class="container-fluid">
             <div class="row" id="row">
                 <div class="container-fluid" style="width:  100%; ">
