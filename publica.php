@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="css/estilopublica.css" >
-
+         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -70,8 +70,9 @@
                             mais recentemente, com software de editoração eletrônica como o Aldus PageMaker, incluindo versões do Lorem Ipsum.  <br>         
                     
                         </p>
+                        
                         <form action='' id='baixar' method="post" name="baixar">
-                            <input required="required" type="email"  name='email'/>
+                            <input required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>
                            
                             <input hidden type="text" name="assunto" value="Quemsomos"/>
                         <div id='erro'></div>
@@ -79,6 +80,7 @@
                             <span style="color:yellow;">Inscreva-se aqui</span>
                             </button>
                         </form>
+                        
                         <div id='conteudo'></div>
                      
                     </div>
@@ -96,16 +98,19 @@
                   
                         <div id='formvip'>
                         <a id='textolistavip'>UMA NOVA ERA NA <br>SUA COMUNICAÇÃO</a><br><br>
-                    <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP e receba conteudos exclusivos.</a>
+                    <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
                     <br>
                         <br>
+                        
                         <form action='' id='emailvip' method="post" name="emailvip">
-                            <input required="required" type="email"  name='email'/>
-                           
+                            <input required="required" class="form-control" placeholder="seuemail@gmail.com"type="email"  name='email'/>
+                            <small id="emailHelp" class="form-text text-muted">
+                                <span id="text">Nunca vamos compartilhar seu email, com ninguém.</span>
+                            </small>
                            
                         <div id='emailvipsaida'></div>
                        
-                             <button  type="button"  id='listavip' >
+                             <button  type="button" class=" btn btn-secondary btn-lg " id='listavip' >
                             Inscreva-se aqui
                             </button>
                         </form>
@@ -137,12 +142,13 @@
             </div>
           </div>
         
-        <div class="container col-md-10 col-lg-8">
+        
+           <div class="container col-md-10 col-lg-8">
             <div class="row" style="margin-bottom:35px;">
                     
                     <div class="col-lg-8 col-md-12">
                         <div>
-                            <img src="img/1.png" width="100%" style="margin: 15px;">
+                            <img src="img/1.jpg" width="100%" style="margin: 15px;">
                         </div>
                     </div>
                  
@@ -155,7 +161,7 @@
                     
                     <div class="col-lg-8 col-md-12">
                         <div>
-                            <img src="img/1.png" width="100%" style="margin: 15px;">
+                            <img src="img/1.jpg" width="100%" style="margin: 15px;">
                         </div>
                     </div>
                  

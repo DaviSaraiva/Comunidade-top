@@ -16,7 +16,7 @@
     <body>
         
         <?php require_once 'Menu.php'; ?>
-     
+     <?php require_once 'whats.php';?>
         <div class="container-fluid">
             <div class="row" id="row">
                 <div class="container-fluid" style="width:  100%; ">
@@ -45,14 +45,43 @@
   
                     
                     <div class="col-lg-6 col-md-12">
-                        <div>
-                            <img src="img/1.png" width="100%" style="margin: 15px;">
+                        <div style="margin: 10px;">
+                            <img id="imagem" src="img/1.jpg"  >
+                            <div id="texto" align=right>Ative o modo criativo
+                                 <hr width = 50%   align = left noshade>
+                                <button type="button" class="btn btn-secondary btn-lg " style="background-color: black; border-radius: 5rem;" >
+                                    <span style="color:yellow;"> se joga >> </span>
+                                </button>
+                                 
+                                 
+                            </div>
+                          
+
                         </div>
                     </div>
                     
                     <div class="col-lg-6 col-md-12">
-                        <div>
-                            <img src="img/2.png"  width="80%" style="margin: 30px;">
+                        <div style="background-color: black; margin-left: 25px;margin-top: 20px;">  <br>
+                           
+                                <span style="color: yellow; font-family: Arial;font-size: 25px;">
+                                    <p align="left" style="margin-left: 45px;">
+                                        UMA NOVA ERA NA<br>
+                                        SUA COMUNICAÇÃO
+                                    </p>
+                                 
+                                </span>
+                                
+                                <span style="color: white; font-family: Arial;font-size: 25px;">
+                                    <p align="left" style="margin-left: 45px;">
+                                    Inscreva-se na nossa lista TOP<br>
+                                    e receba conteúdos exclusivos.
+                                    </p>
+                                </span>
+                            
+                            <center> <button type="button" class=" btn btn-secondary btn-lg " style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
+                                <span style="color:black;">Inscreva-se aqui</span>
+                            </button><br><br>
+                            </center>
                         </div>
 	</div>
                     
@@ -62,9 +91,19 @@
          <div class="container col-md-10 col-lg-8">
             <div class="row" style="margin-bottom:35px;">
                     
-                    <div class="col-lg-6 col-md-12">
-                        <div>
-                            <img src="img/1.png" width="100%" style="margin: 15px;">
+                     <div class="col-lg-6 col-md-12">
+                        <div style="margin: 10px;">
+                            <img id="imagem" src="img/1.jpg"  >
+                            <div id="texto" align=right>Ative o modo criativo
+                                 <hr width = 50%   align = left noshade>
+                                <button type="button" class="btn btn-secondary btn-lg " style="background-color: black; border-radius: 5rem;" >
+                                    <span style="color:yellow;"> se joga >> </span>
+                                </button>
+                                 
+                                 
+                            </div>
+                          
+
                         </div>
                     </div>
                     
@@ -82,14 +121,40 @@
             <div class="row" style="margin-bottom:35px;">
                     
                     <div class="col-lg-6 col-md-12">
-                        <div>
-                            <img src="img/1.png" width="100%" style="margin: 15px;">
+                        <div style="margin: 10px;">
+                            <img id="imagem" src="img/1.jpg"  >
+                            <div id="texto" align=right>Ative o modo criativo
+                                 <hr width = 50%   align = left noshade>
+                                <button type="button" class="btn btn-secondary btn-lg " style="background-color: black; border-radius: 5rem;" >
+                                    <span style="color:yellow;"> se joga >> </span>
+                                </button>
+                                 
+                                 
+                            </div>
+                          
+
                         </div>
-                    </div>
+                    </div>  
                     
                     <div class="col-lg-6 col-md-12">
-                        <div>
-                            <img src="img/3.png"  width="80%" style="margin: 30px;">
+                        <div style="background-color: black; margin-left: 25px;margin-top: 20px;">
+                            
+                            <br> <center>
+                                <span style="color: white; font-family: Arial;font-size: 25px;">Participação Obrigatória para quem<br>
+                                    quer lapidar seu negócio diariamente!</span><br><br><br>
+                            </center>
+                            
+                            <center>
+                                <img src="img/te.jpg"  width="120" height="100" ><br><br>
+                            </center>
+                            
+                            <center> 
+                                <button type="button" class="btn btn-secondary btn-lg " style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
+                                    <span style="color:black;">Inscreva-se aqui</span>
+                                </button>
+                                <br>
+                                <br>
+                            </center>
                         </div>
 	</div>
                     

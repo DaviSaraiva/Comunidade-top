@@ -1,0 +1,19 @@
+.navbar-toggler {
+    padding: .45rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: yellow;
+    border: white;
+    border-radius: .20rem;
+}
+#imagem {
+width: 100%;
+
+}
+
+#texto {
+position: absolute;
+margin-top: -140px;
+color: white;
+font-size: 25px;
+}
