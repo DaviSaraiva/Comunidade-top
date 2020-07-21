@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://(.+.)?localhost:8080/comunidade-top/top/ [NC]
+RewriteRule .*.(pdf|rar)$ http://localhost:8080/comunidade-top/top/ [L]
+

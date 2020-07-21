@@ -1,0 +1,28 @@
+#formvip {
+    background-color: black;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 2% 5% 2%;
+}
+
+#emailvip {
+    text-align: center;
+}
+
+#listavip {
+    color: black;
+    background-color: #ffef00;
+    border: none;
+    border-radius: 50px;
+}
+
+#textolistavipinscreva {
+    color: white;
+}
+
+#textolistavip {
+    font-weight: bold;
+    color: #ffef00;
+    font-size: 25px;
+}
