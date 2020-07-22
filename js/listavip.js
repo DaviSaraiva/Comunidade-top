@@ -16,7 +16,7 @@ $(document).ready(function() {
                 console.log(data)
                 if (data['vazio'] == false) {
                     var arquivo = data['arquivo'];
-                    document.getElementById("emailvipsaida").innerHTML = "<a>Email Cadastrado com Sucesso! </a>";
+                    document.getElementById("emailvipsaida").innerHTML = "<br><a>Email Cadastrado com Sucesso! </a><br>";
                 } else {
                     document.getElementById("emailvipsaida").innerHTML = "<a > Preencha o campo acima! </a>";
                 }

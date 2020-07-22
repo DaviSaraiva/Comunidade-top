@@ -76,7 +76,9 @@
                            
                             <input hidden type="text" name="assunto" value="Quemsomos"/>
                         <div id='erro'></div>
+                      
                              <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: black;margin-top: 30px; border-radius: 2rem;">
+                                 
                             <span style="color:yellow;">Inscreva-se aqui</span>
                             </button>
                         </form>

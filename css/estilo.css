@@ -17,3 +17,7 @@ margin-top: -140px;
 color: white;
 font-size: 25px;
 }
+a:not([href]):not([tabindex]) {
+    color: white;
+    text-decoration: none;
+}
