@@ -21,7 +21,7 @@
       <?php require_once 'whats.php'; ?>
         <div class="container-fluid">
             <div class="row" id="row">
-                <div class="container-fluid" style="width:  100%; ">
+                <div class="container-fluid" style="width:  100%;">
                     <img src="img/topv.jpg"  width="100%">
                 </div>
                 
@@ -29,11 +29,11 @@
             
         </div>
         
-          <div class="container col-md-10 col-lg-8">
+        <div class="container col-md-10 col-lg-8" >
             <div class="row" style="margin-bottom:35px;">
   
                     
-                <div class="col-lg-6 col-md-12" style="margin-top: 25px;">
+                <div class="col-lg-6 col-md-12" style="margin-top: -200px;background-color: white">
                     <div style="margin:10px;">
                         <h2>Ative o modo criativo
                             <hr width = 61%   align = left noshade>
@@ -96,7 +96,7 @@
                 </div>
                 
                     
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12" style="margin-top: -230px;">
                   
                         <div id='formvip'>
                         <a id='textolistavip'>UMA NOVA ERA NA <br>SUA COMUNICAÇÃO</a><br><br>
