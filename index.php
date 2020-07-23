@@ -4,7 +4,8 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
+                <link rel="stylesheet" href="css/estilopublica.css" >
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -28,8 +29,8 @@
         </div>
         
         <div class="container col-md-10 col-lg-8" style="margin-top:30px;">
-            <h1><center>O QUE É A COMUNIDADE TOP</center</h1>
-            <p align="justify" style="font-size: 25px;">
+            <h1 style="margin-top:15px;"><center>O QUE É A COMUNIDADE TOP</center</h1>
+            <p align="justify" style="font-size: 25px; margin-bottom: 25px;margin-top: 25px;">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                 tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
                 nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
@@ -46,7 +47,7 @@
                     
                     <div class="col-lg-6 col-md-12">
                         <div style="margin: 10px;">
-                            <img id="imagem" src="img/1.jpg"  >
+                            <img id="imagem" src="img/1.jpg"  width="100" height="357"  >
                             <div id="texto" align=right>Ative o modo criativo
                                  <hr width = 50%   align = left noshade>
                                 <button type="button" class="btn btn-secondary btn-lg " style="background-color: black; border-radius: 5rem;" >
@@ -61,33 +62,33 @@
                     </div>
                     
                     <div class="col-lg-6 col-md-12">
-                        <div style="background-color: black; margin-left: 25px;margin-top: 20px;">  <br>
-                           
-                                <span style="color: yellow; font-family: Arial;font-size: 25px;">
-                                    <p align="left" style="margin-left: 45px;">
-                                        UMA NOVA ERA NA<br>
-                                        SUA COMUNICAÇÃO
-                                    </p>
-                                 
-                                </span>
-                                
-                                <span style="color: white; font-family: Arial;font-size: 25px;">
-                                    <p align="left" style="margin-left: 45px;">
-                                    Inscreva-se na nossa lista TOP<br>
-                                    e receba conteúdos exclusivos.
-                                    </p>
-                                </span>
+                        <div id='formvip'  style="margin-left: 15px;margin-right: 15px">
+                            <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
+                    <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
+                    <br>
+                        <br>
+                        
+                        <form action='' id='emailvip' method="post" name="emailvip">
+                            <input required="required" class="form-control" placeholder="seuemail@gmail.com"type="email"  name='email'/>
                             
-                            <center> <button type="button" class=" btn btn-secondary btn-lg " style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
-                                <span style="color:black;">Inscreva-se aqui</span>
-                            </button><br><br>
-                            </center>
+                            <small id="emailHelp" class="form-text text-muted">
+                                <span id="text"><span style="font-size:15px">Nunca vamos compartilhar seu email, com ninguém.</span>
+                            </small>
+                           
+                        <div id='emailvipsaida'></div>
+                       
+                             <button  type="button" class=" btn btn-secondary btn-lg " id='listavip' >
+                            Inscreva-se aqui
+                            </button>
+                        </form>
+                
                         </div>
 	</div>
                     
                 </div>
         </div>
         
+        <!-- botoes-->
          <div class="container col-md-10 col-lg-8">
             <div class="row" style="margin-bottom:35px;">
                     
@@ -95,7 +96,7 @@
                         <div style="margin: 10px;">
                             <img id="imagem" src="img/1.jpg"  >
                             <div id="texto" align=right>Ative o modo criativo
-                                 <hr width = 50%   align = left noshade>
+                                 <hr width = 50%   noshade>
                                 <button type="button" class="btn btn-secondary btn-lg " style="background-color: black; border-radius: 5rem;" >
                                     <span style="color:yellow;"> se joga >> </span>
                                 </button>
@@ -108,8 +109,8 @@
                     </div>
                     
                     <div class="col-lg-6 col-md-12">
-                        <div style="margin: 30px;">
-                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/aF_0RA5AFsI"> </iframe>            
+                        <div style=" margin-top: 5px; margin-left: 15px;margin-right: 15px;">
+                            <iframe width="100%" height="320" src="https://www.youtube.com/embed/aF_0RA5AFsI"> </iframe>            
                         </div>
                     </div>
                     
@@ -137,7 +138,7 @@
                     </div>  
                     
                     <div class="col-lg-6 col-md-12">
-                        <div style="background-color: black; margin-left: 25px;margin-top: 20px;">
+                        <div style="background-color: black; margin-left: 10px;margin-right: 10px;;margin-top: 20px;">
                             
                             <br> <center>
                                 <span style="color: white; font-family: Arial;font-size: 25px;">Participação Obrigatória para quem<br>

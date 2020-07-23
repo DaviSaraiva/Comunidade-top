@@ -22,10 +22,21 @@
 
 #textolistavipinscreva {
     color: white;
+    font-size: 20px;
 }
 
 #textolistavip {
     color: yellow; 
     font-family: Arial;
     font-size: 25px;
+}
+#textobaixar{
+     color: yellow; 
+    font-family: Arial;
+    font-size: 35px;
+}
+#textolistabaixarinscreva {
+    color: white;
+    font-size: 20px;
+    font-family: arial;
 }

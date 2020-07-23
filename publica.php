@@ -12,8 +12,44 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-            <title>Post</title>
+
+<style type="text/css">
+    @media screen and (min-width: 992px){
+            .col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: -150px !important;
+}
+    @media screen and (min-width: 768px){
+            .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: -150px !important;
+}
+@media screen and (min-width: 576px){
+            .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 0px ;
+}
+@media screen and (min-width: 480px){
+            .col-xs-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 0px ;
+}
+
+    }
     
+ 
+    
+</style>
+            <title>Publica</title>
+            
     </head>
     <body>
         
@@ -29,11 +65,11 @@
             
         </div>
         
-        <div class="container col-md-10 col-lg-8" >
+        <div class="container col-lg-8 col-md-10 col-sm-12" >
             <div class="row" style="margin-bottom:35px;">
   
                     
-                <div class="col-lg-6 col-md-12" style="margin-top: -200px;background-color: white">
+                <div class="col-lg-6 col-md-12 col-sm-12" style="background-color: white">
                     <div style="margin:10px;">
                         <h2>Ative o modo criativo
                             <hr width = 61%   align = left noshade>
@@ -44,9 +80,9 @@
                        
                         <a href="https://www.instagram.com/valdisatorres/?hl=pt-br" target="_blank">
                             <div>
-                                <img src="img/insta.png" width="20"  style="margin-bottom: 0px;margin-left: 110px;margin-top: -50px">
+                                <img src="img/insta.png" width="30"  style="margin-bottom: 0px;margin-left: 110px;margin-top: -50px">
                             </div>
-                            <div style="margin-bottom: 0px;margin-left: 135px;margin-top: -48px">
+                            <div style="margin-bottom: 0px;margin-left: 140px;margin-top: -48px">
                                 Conecte-se
                             </div>
                         </a>                        
@@ -71,17 +107,7 @@
                     
                         </p>
                         
-                        <form action='' id='baixar' method="post" name="baixar">
-                            <input required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>
-                           
-                            <input hidden type="text" name="assunto" value="Quemsomos"/>
-                        <div id='erro'></div>
-                      
-                             <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: black;margin-top: 30px; border-radius: 2rem;">
-                                 
-                            <span style="color:yellow;">Inscreva-se aqui</span>
-                            </button>
-                        </form>
+                        
                         
                         <div id='conteudo'></div>
                      
@@ -96,18 +122,19 @@
                 </div>
                 
                     
-                    <div class="col-lg-6 col-md-12" style="margin-top: -230px;">
+                <div class="col-lg-6 col-md-12 col-sm-12" >
                   
-                        <div id='formvip'>
-                        <a id='textolistavip'>UMA NOVA ERA NA <br>SUA COMUNICAÇÃO</a><br><br>
+                        <div id='formvip'  style="margin-top:0px;">
+                            <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
                     <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
                     <br>
                         <br>
                         
                         <form action='' id='emailvip' method="post" name="emailvip">
                             <input required="required" class="form-control" placeholder="seuemail@gmail.com"type="email"  name='email'/>
+                            
                             <small id="emailHelp" class="form-text text-muted">
-                                <span id="text">Nunca vamos compartilhar seu email, com ninguém.</span>
+                                <span id="text"><span style="font-size:15px">Nunca vamos compartilhar seu email, com ninguém.</span>
                             </small>
                            
                         <div id='emailvipsaida'></div>
@@ -116,22 +143,48 @@
                             Inscreva-se aqui
                             </button>
                         </form>
+                
+                        </div>
+                         
+                  
+                        <div id='formvip'>
+                            <a id='textobaixar'><center>Me Conectei!</center></a>
+                            <a id='textolistabaixarinscreva'><center>Um conteudo todo seu</center></a><br>
+                    
+                            <center><img src="img/tiri.jpg" width="200"  height="200"><br><br>
+                             <small id="emailHelp" class="form-text text-muted">
+                                <span id="text">Sua jornada continua em 3, 2, 1</span>
+                            </small>
+                            </center>
+                        <br>
+                        
+                        <form action='' id='baixar' method="post" name="baixar">
+                           <!-- <input required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>-->
+                           
+                            <input hidden type="text" name="assunto" value="Quemsomos"/>
+                        <div id='erro'></div>
+                      
+                             <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
+                                 
+                            <span style="color:black;">BAIXAR EBOOK</span>
+                            </button>
+                        </form>
+
+                       
                         
                      
-                    </div>
-                            <img src="img/t.png"  width="80%" style="margin: 30px;">
+                        
                         </div>
-                           <div>
-                            <img src="img/t.png"  width="80%" style="margin: 30px;">
-                        </div>
+	</div>
 	</div>
                     
                 </div>
         </div>
         
         <!--- fim da primeira parte da materia -->
-          <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:35px;">
+         
+  <div class="container col-md-10 col-lg-8">
+            <div class="row" style="margin-top:100px;">
   
                     
                 <div class="col-lg-6 col-md-12">
@@ -144,33 +197,33 @@
             </div>
           </div>
         
-        
-           <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:35px;">
+         <div class="container col-md-10 col-lg-8">
+            <div class="row" style="margin-bottom:0;">
                     
                     <div class="col-lg-8 col-md-12">
                         <div>
-                            <img src="img/1.jpg" width="100%" style="margin: 15px;">
+                            <img src="img/1.PNG" width="70%" style="margin-top: 105px;">
                         </div>
                     </div>
                  
              </div>
           </div>
         
-         
-        <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:35px;">
+         <div class="container col-md-10 col-lg-8">
+            <div class="row" style="margin-bottom:100px;">
                     
                     <div class="col-lg-8 col-md-12">
                         <div>
-                            <img src="img/1.jpg" width="100%" style="margin: 15px;">
+                            <img src="img/1.PNG" width="70%" style="margin-top: 155px;">
                         </div>
                     </div>
                  
-            </div>
-           </div>
+             </div>
+          </div>
         
-  
+        
+           
+        
         
 
                 
