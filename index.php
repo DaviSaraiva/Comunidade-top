@@ -62,7 +62,7 @@
                     </div>
                     
                     <div class="col-lg-6 col-md-12">
-                        <div id='formvip'  style="margin-left: 15px;margin-right: 15px">
+                        <div id='formvip'  style="margin-top:7px; margin-left: 15px;margin-right: 15px;">
                             <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
                     <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
                     <br>
@@ -138,7 +138,7 @@
                     </div>  
                     
                     <div class="col-lg-6 col-md-12">
-                        <div style="background-color: black; margin-left: 10px;margin-right: 10px;;margin-top: 20px;">
+                        <div style="background-color: black; margin-left: 10px;margin-right: 10px;;margin-top: 10px;">
                             
                             <br> <center>
                                 <span style="color: white; font-family: Arial;font-size: 25px;">Participação Obrigatória para quem<br>
