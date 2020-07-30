@@ -14,12 +14,13 @@
     /*menu*/
     
     #borda{
-    border-radius: 3rem;
+    border-radius: 8rem;
         border: 1.5px solid yellow;
-        margin: 10px;
-     padding: 10px;
+        margin: 5px;
+     padding: 5px 45px 5px 45px;
      color: yellow;
      cursor: pointer;
+     font-size: 15px;
 }
     
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {

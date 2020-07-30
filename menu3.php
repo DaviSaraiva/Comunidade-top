@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #000; color:white;" >
         <div class="container" >
             <a class="navbar-brand" href="#" >
-                <img src="img/top.PNG" width="100" height="70" class="d-inline-block " alt="" >
+                <img src="img/top.PNG" width="70" height="50" class="d-inline-block " alt="" >
                 <span style="color: yellow;font-family: arial;margin-left: 0px; "> Comunidade Top Midia</span>
             </a>
 
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown" style="max-width: 402px;width: 480px;" >
                 <ul class="navbar-nav" style="width: 180px;" >
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php" id="borda">Inicio<span class="sr-only">(Página atual)</span></a>
+                        <a class="nav-link" href="index.php" id="borda">Início<span class="sr-only">(Página atual)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"  id="borda">Cursos</a>

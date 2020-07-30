@@ -14,7 +14,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
-            <title>Top Midia</title>
+            <title>Comunidade Top Midia</title>
     
     </head>
      
@@ -36,7 +36,7 @@
         </div>
         
         <div class="container col-md-10 col-lg-8">
-            <h1 style="margin-top:45px;">
+            <h1 style="margin-top:45px; font-family: Arial;">
                 <center><strong>O QUE É A COMUNIDADE TOP?</strong></center
             </h1>
             
@@ -70,20 +70,21 @@
                 <div class="col-lg-6 col-md-12">
 
                 </div>
-
                 <div class="col-lg-6 col-md-12">
-                    <form class="form-inline" id="form-control" style="width: 100%; margin: 10px;">
 
-                        <div class="form-group mx-sm-3 mb-2">
-
-                            <input type="text"  class="form-control"  placeholder="Estou Procurando">
-                        </div>
+                    <form action=" " method="post" class="form-inline"> 
+                        <input class="form-control"  placeholder="Estou Procurando" type="search" id="busca" name="q">
                         <button type="submit" class="btn mb-2" style="background-color: black;color: yellow">Procurar</button>
                     </form>
+
                 </div>
             </div>
         </div>
-
+        
+        
+        
+        
+       
         
         
         <div class="container col-md-10 col-lg-8">
@@ -93,12 +94,12 @@
                 <div class="col-lg-6 col-md-12">
                     <div style="margin: 10px;">
                         <img id="imagem" src="img/1.jpg"  width="100" height="357"  >
-                        <div id="texto" align=right>ATIVE O MODO CRIATIVO
-                            <hr width = 100%   align = left noshade>
-                            <a style=" margin-right: 115px;">#criatividade</a>
+                        <div id="texto" align=left><strong>ATIVE O MODO CRIATIVO</strong>
+                            <hr width = 86%   style="margin-top:-2px;" align = left noshade>
+                            <a style=" margin-right: 0px;">#Produzindo-um-baú-de-ideias</a>
                         
                              
-                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; margin-left: 30px; ">
                                 <span style="color:yellow;"> SE JOGA >> </span>
                             </a>
                           
@@ -139,11 +140,12 @@
                 <div class="col-lg-6 col-md-12">
                     <div style="margin: 10px;">
                         <img id="imagem" src="img/1.jpg" width="100" height="357"  >
-                        <div id="texto" align=right>ATIVE O MODO CRIATIVO
-                            <hr width = 100%   align = left noshade>
-                            <a style="width: 10px; margin-right: 115px;">#criatividade</a>
-                         
-                                <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                        <div id="texto" align=left><strong>ATIVE O MODO CRIATIVO</strong>
+                            <hr width = 86%  style="margin-top:-2px;"  align = left noshade>
+                            <a style=" margin-right: 0px;">#Produzindo-um-baú-de-ideias</a>
+                        
+                             
+                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; margin-left: 30px; ">
                                 <span style="color:yellow;"> SE JOGA >> </span>
                             </a>
 
@@ -154,8 +156,8 @@
                 </div>
                     
                     <div class="col-lg-6 col-md-12">
-                        <div style=" margin-top: 5px; margin-left: 15px;margin-right: 15px;">
-                            <iframe width="100%" height="360"  src="https://www.youtube.com/embed/p9l6POKbMTk" ></iframe>
+                        <div style=" margin-top: 9px; margin-left: 12px;margin-right: 15px;">
+                            <iframe width="100%" height="359"  src="https://www.youtube.com/embed/p9l6POKbMTk" ></iframe>
                         </div>
                     </div>
                     
@@ -169,12 +171,12 @@
                 <div class="col-lg-6 col-md-12">
                     <div style="margin: 10px" >
                         <img id="imagem" src="img/1.jpg"  width="100" height="357">
-                        <div id="texto" align=right>ATIVE O MODO CRIATIVO
-                            <hr width = 100%   align = left noshade>
-                           <a style="width: 10px; margin-right: 115px;">#criatividade</a>
-                          
-                           
-                                <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                        <div id="texto" align=left><strong>ATIVE O MODO CRIATIVO</strong>
+                            <hr width = 86% style="margin-top:-2px;"   align = left noshade>
+                           <a style=" margin-right: 0px;">#Produzindo-um-baú-de-ideias</a>
+                        
+                             
+                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; margin-left: 30px; ">
                                 <span style="color:yellow;"> SE JOGA >> </span>
                             </a>
                             

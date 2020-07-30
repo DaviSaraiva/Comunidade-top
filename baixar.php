@@ -30,7 +30,7 @@ $stmt = $PDO->prepare( $sql );
         
         else{
             $Dados['vazio']=false;
-       $Dados['arquivo']=$assunto.".pdf";
+       $Dados['arquivo']=$assunto."Ative seu modo criativo.pdf";
  
           echo json_encode ($Dados);
           exit;
