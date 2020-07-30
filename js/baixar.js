@@ -19,7 +19,7 @@
             document.getElementById("conteudo").innerHTML = "<a href='"+arquivo+"' download> Baixar Conteudo </a>";
             }
             else{
-                 document.getElementById("erro").innerHTML = "<a > Preencha o campo acima! </a>";
+                 document.getElementById("erro").innerHTML ="<a>Preencha o campo de email para baixar seu ebook. </a>";
             }
             
               

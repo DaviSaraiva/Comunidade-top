@@ -6,14 +6,14 @@
          <link rel="stylesheet" href="css/estilo.css" >
 
 <!-- Imagem e texto -->
-<div>
+
 <nav class="navbar  navbar-light"  style="background-color: #000;"  >
     <div class="container" >
   <a class="navbar-brand" href="#" >
-      <img src="img/top.png" width="100" height="70" class="d-inline-block " alt="" >
+         <img src="img/top.png" width="100" height="70" class="d-inline-block " alt="" >
       <span style="color: yellow;font-family: arial; "> Comunidade Top Midia</span>
   </a>
-    
+
     <nav class="navbar navbar-expand-lg navbar-light "  style="background-color: #000;">
         <div class="container">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -39,4 +39,4 @@
         </div>
 </nav>
 </nav>
-</div>
+

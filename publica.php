@@ -6,12 +6,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="css/estilopublica.css" >
+      <link rel="shortcut icon"  href="img/LogoSITE.png">
          
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
+     
+ 
 
 <style type="text/css">
     @media screen and (min-width: 992px){
@@ -21,6 +24,7 @@
     max-width: 100%;
     margin-top: -150px !important;
 }
+    
     @media screen and (min-width: 768px){
             .col-md-12 {
     -ms-flex: 0 0 100%;
@@ -28,6 +32,7 @@
     max-width: 100%;
     margin-top: -150px !important;
 }
+    
 @media screen and (min-width: 576px){
             .col-sm-12 {
     -ms-flex: 0 0 100%;
@@ -35,6 +40,7 @@
     max-width: 100%;
     margin-top: 0px ;
 }
+
 @media screen and (min-width: 480px){
             .col-xs-12 {
     -ms-flex: 0 0 100%;
@@ -43,9 +49,7 @@
     margin-top: 0px ;
 }
 
-    }
-    
- 
+
     
 </style>
             <title>Publica</title>
@@ -53,8 +57,9 @@
     </head>
     <body>
         
-        <?php require_once 'Menu.php'; ?>
+        <?php require_once 'menu3.php'; ?>
       <?php require_once 'whats.php'; ?>
+    
         <div class="container-fluid">
             <div class="row" id="row">
                 <div class="container-fluid" style="width:  100%;">
@@ -82,7 +87,7 @@
                             <div>
                                 <img src="img/insta.png" width="30"  style="margin-bottom: 0px;margin-left: 110px;margin-top: -50px">
                             </div>
-                            <div style="margin-bottom: 0px;margin-left: 140px;margin-top: -48px">
+                            <div style="margin-bottom: 0px;margin-left: 145px;margin-top: -48px">
                                 Conecte-se
                             </div>
                         </a>                        
@@ -92,7 +97,7 @@
 
                     <div>
 
-                        <p align="justify" style="margin: 10px;">
+                        <p align="justify" style="margin: 10px;font-size: 16px; margin-bottom: 45px;margin-top: 45px; font-family: Arial">
                             Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. 
                             Lorem Ipsum é o texto fictício padrão do setor desde os anos 1500, quando uma impressora desconhecida pegou uma galera do tipo e a
                             mexeu para fazer um livro de amostras do tipo. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, 
@@ -109,13 +114,13 @@
                         
                         
                         
-                        <div id='conteudo'></div>
+                        
                      
                     </div>
                    
                     <hr width = 100% align = right noshade>
                     
-                    <p><center>#titulo materia</center></p>
+                    <p><center>#titulo-materia</center></p>
                     
                     <hr width = 100% align = right noshade>
                     
@@ -124,49 +129,47 @@
                     
                 <div class="col-lg-6 col-md-12 col-sm-12" >
                   
-                        <div id='formvip'  style="margin-top:0px;">
-                            <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
-                    <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
-                    <br>
+                    <div id='formvip'  style="margin-top:0px;">
+                        <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
+                        <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
                         <br>
-                        
+                        <br>
+
                         <form action='' id='emailvip' method="post" name="emailvip">
-                            <input required="required" class="form-control" placeholder="seuemail@gmail.com"type="email"  name='email'/>
-                            
-                            <small id="emailHelp" class="form-text text-muted">
-                                <span id="text"><span style="font-size:15px">Nunca vamos compartilhar seu email, com ninguém.</span>
-                            </small>
-                           
-                        <div id='emailvipsaida'></div>
-                       
-                             <button  type="button" class=" btn btn-secondary btn-lg " id='listavip' >
-                            Inscreva-se aqui
+                            <input required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                            <br>
+
+                            <div id='emailvipsaida'></div>
+
+                            <button  type="button" class=" btn btn-secondary btn-lg " id='listavip' >
+                                Inscreva-se aqui
                             </button>
                         </form>
-                
-                        </div>
+
+                    </div>
                          
                   
                         <div id='formvip'>
                             <a id='textobaixar'><center>Me Conectei!</center></a>
-                            <a id='textolistabaixarinscreva'><center>Um conteudo todo seu</center></a><br>
+                            <a id='textolistabaixarinscreva'><center>Um conteúdo todo seu</center></a><br>
                     
-                            <center><img src="img/tiri.jpg" width="200"  height="200"><br><br>
+                            <center><img src="img/ebook.jpeg" width="200"  height="200"><br><br>
                              <small id="emailHelp" class="form-text text-muted">
                                 <span id="text">Sua jornada continua em 3, 2, 1</span>
                             </small>
+                                <div id='conteudo'></div>
                             </center>
                         <br>
                         
                         <form action='' id='baixar' method="post" name="baixar">
-                           <!-- <input required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>-->
+                            <input  required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>
                            
                             <input hidden type="text" name="assunto" value="Quemsomos"/>
                         <div id='erro'></div>
                       
                              <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
                                  
-                            <span style="color:black;">BAIXAR EBOOK</span>
+                                 <span style="color:black;"><strong>BAIXAR MEU EBOOK</strong></span>
                             </button>
                         </form>
 
@@ -179,12 +182,12 @@
 	</div>
                     
                 </div>
-        </div>
+        
         
         <!--- fim da primeira parte da materia -->
          
   <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-top:100px;">
+            <div class="row" style="margin-top:150px;">
   
                     
                 <div class="col-lg-6 col-md-12">
@@ -222,15 +225,6 @@
           </div>
         
         
-           
-        
-        
-
-                
-          
-                        
-        
-
         <?php require_once "footer.php" ?>  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script src="js/baixar.js"></script>
