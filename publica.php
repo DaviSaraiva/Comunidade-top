@@ -128,7 +128,7 @@
                 
                     
                 <div class="col-lg-6 col-md-12 col-sm-12" >
-                  
+
                     <div id='formvip'  style="margin-top:0px;">
                         <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
                         <a id='textolistavipinscreva'>Inscreva-se na nossa lista TOP <br>e receba conteudos exclusivos.</a>
@@ -147,82 +147,76 @@
                         </form>
 
                     </div>
-                         
-                  
-                        <div id='formvip'>
-                            <a id='textobaixar'><center>Me Conectei!</center></a>
-                            <a id='textolistabaixarinscreva'><center>Um conteúdo todo seu</center></a><br>
-                    
-                            <center><img src="img/ebook.jpeg" width="200"  height="200"><br><br>
-                             <small id="emailHelp" class="form-text text-muted">
+
+
+                    <div id='formvip'>
+                        <a id='textobaixar'><center>Me Conectei!</center></a>
+                        <a id='textolistabaixarinscreva'><center>Um conteúdo todo seu</center></a><br>
+
+                        <center><img src="img/ebook.jpeg" width="200"  height="200"><br><br>
+                            <small id="emailHelp" class="form-text text-muted">
                                 <span id="text">Sua jornada continua em 3, 2, 1</span>
                             </small>
-                                <div id='conteudo'></div>
-                            </center>
+                            <div id='conteudo'></div>
+                        </center>
                         <br>
-                        
+
                         <form action='' id='baixar' method="post" name="baixar">
                             <input  required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>
-                           
+
                             <input hidden type="text" name="assunto" value="Quemsomos"/>
-                        <div id='erro'></div>
-                      
-                             <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
-                                 
-                                 <span style="color:black;"><strong>BAIXAR MEU EBOOK</strong></span>
+                            <div id='erro'></div>
+
+                            <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
+
+                                <span style="color:black;"><strong>BAIXAR MEU EBOOK</strong></span>
                             </button>
                         </form>
 
-                       
-                        
-                     
-                        
-                        </div>
-	</div>
-	</div>
-                    
+                    </div>
                 </div>
+            </div>
+        </div>
         
         
         <!--- fim da primeira parte da materia -->
          
   <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-top:150px;">
-  
-                    
+      <div class="row"  >
                 <div class="col-lg-6 col-md-12">
-                    <div class="page-header">
+                
                         <h2>Leia mais</h2>
                          <hr width = 50%   align = left noshade>
-                    </div>
-                    
+                  
                 </div>
             </div>
           </div>
         
          <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:0;">
-                    
-                    <div class="col-lg-8 col-md-12">
-                        <div>
-                            <img src="img/1.PNG" width="70%" style="margin-top: 105px;">
+             <div class="row" >
+             <div class="col-lg-6 col-md-12">
+                    <div style="margin: 10px;" >
+                        <img id="imagem" src="img/1.jpg"  width="100" height="357">
+                        <div id="texto" align=right>ATIVE O MODO CRIATIVO
+                            <hr width = 100%   align = left noshade>
+                           <a style="width: 10px; margin-right: 115px;">#criatividade</a>
+                          
+                           
+                                <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                <span style="color:yellow;"> SE JOGA >> </span>
+                            </a>
+                            
                         </div>
                     </div>
-                 
+                </div>  
              </div>
           </div>
         
-         <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:100px;">
-                    
-                    <div class="col-lg-8 col-md-12">
-                        <div>
-                            <img src="img/1.PNG" width="70%" style="margin-top: 155px;">
-                        </div>
-                    </div>
-                 
-             </div>
-          </div>
+        
+       
+        
+         
+   
         
         
         <?php require_once "footer.php" ?>  
