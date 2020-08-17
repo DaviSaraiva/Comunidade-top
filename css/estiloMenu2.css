@@ -1,0 +1,88 @@
+.container-fluid {
+    padding: 0%;
+}
+#row {
+        margin: 0%;
+    }
+    
+    .col-sd-12,
+    .col-md-12 {
+        padding: 0%;
+    }
+    
+   #header {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*menu*/
+
+#menuid ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    background-color: #000;
+  
+}
+
+#menuid {
+    text-align: center;
+    background-color: #000;
+}
+
+#menuid li {
+    float: left;
+}
+#menuid li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menuid li a:hover {
+    border-radius: 2rem;
+    padding: 10px 10px  ;
+    padding-bottom:  10px;
+    border: 2px solid yellow;
+
+}
+body {
+    background-color: #f8f3f3;
+}
+
+
+/*botaodetalhes*/
+
+
+/*menu*/
+
+
+/*menu categoria*/
+
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/*.vertical-menu a:hover {
+border-radius: 2rem;
+border: 3px solid white;
+margin: -3px;
+}*/
+
+
+
+
+
+/*menu categoria*/

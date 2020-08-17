@@ -2,9 +2,9 @@
 
 
 define('HOST', 'localhost');
-define('USUARIO', 'root');
-define('SENHA', '');
-define('DB', 'comunidadetop');
+define('USUARIO', 'u374028211_comunidade');
+define('SENHA', ':v28oavH');
+define('DB', 'u374028211_comunidadetop');
 try
 {
     $PDO = new PDO( 'mysql:host=' .HOST . ';dbname=' .DB, USUARIO, SENHA);

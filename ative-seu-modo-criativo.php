@@ -24,6 +24,7 @@
     max-width: 100%;
     margin-top: -150px !important;
 }
+    }
     
     @media screen and (min-width: 768px){
             .col-md-12 {
@@ -32,7 +33,7 @@
     max-width: 100%;
     margin-top: -150px !important;
 }
-    
+}
 @media screen and (min-width: 576px){
             .col-sm-12 {
     -ms-flex: 0 0 100%;
@@ -40,7 +41,7 @@
     max-width: 100%;
     margin-top: 0px ;
 }
-
+}
 @media screen and (min-width: 480px){
             .col-xs-12 {
     -ms-flex: 0 0 100%;
@@ -49,10 +50,10 @@
     margin-top: 0px ;
 }
 
-
+}
     
 </style>
-            <title>Publica</title>
+            <title>Ative seu modo criativo</title>
             
     </head>
     <body>
@@ -143,7 +144,7 @@
                 </div>
                 
                     
-                <div class="col-lg-6 col-md-12 col-sm-12" >
+                <div class="col-lg-6 col-md-12 col-sm-12" style="    margin-bottom: 20%;"  >
 
                     <div id='formvip'  style="margin-top:0px;">
                         <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
@@ -152,7 +153,7 @@
                         <br>
 
                         <form action='' id='emailvip' method="post" name="emailvip">
-                            <input required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                            <input required="required" class="form-control" placeholder="exemplo@exemplo.com" type="email"  name='email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
                             <br>
 
                             <div id='emailvipsaida'></div>
@@ -178,7 +179,7 @@
                         <br>
 
                         <form action='' id='baixar' method="post" name="baixar">
-                            <input  required="required" class="form-control" placeholder="seuemail@gmail.com" type="email"  name='email'/>
+                            <input  required="required" class="form-control" placeholder="exemplo@exemplo.com" type="email"  name='email'/>
 
                             <input hidden type="text" name="assunto" value="Quemsomos"/>
                             <div id='erro'></div>
@@ -196,10 +197,9 @@
         
     </div>       
 </div>
-
         <!--- fim da primeira parte da materia -->
          
-        <div class="container col-md-10 col-lg-8" style="margin-top:35px; margin-bottom: 35px;">
+        <div class="container col-md-10 col-lg-8" style="margin-top:35px;">
             <div class="row"  >
 
                 <div class="col-lg-6 col-md-12" >
@@ -210,64 +210,61 @@
                 </div>
             </div>
         </div>
-        
-       <div class="container col-md-6 col-lg-8 col-sm-12 col-xs-6">
-            <div class="row" style="margin-bottom:185px;">
+       
+        <div class="container col-md-10 col-lg-8" >
+     
+     <div class="row" style="margin-bottom:35px;">      
+         
+         <div class="col-lg-6 col-md-11"  style="margin-top: 10px; ">
 
-                 <div class="col-lg-6 col-md-12"  style="margin-top: 10px;">
-
-                            <section class="ContainerImagem">
-                                <img src="img/1.jpg" width="510px" >
-                                <div class="baixoEsquerda"><strong>ATIVE O MODO CRIATIVO</strong>
-                                    <hr width = 86%   style="margin-top:-2px;" align = left noshade>
-                                </div>
-                                
-                                <div class="baixoEsquerda-criativo">
-                                    <strong>#Criativo</strong>
-                                </div>
-                                
-                                <div class="baixoDireita">
-                                    <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
-                                        <span style="color:yellow;"> SE JOGA >> </span>
-                                    </a>
-                                </div>
-                                
-                            </section>
-                            
-                            <script type="text/javascript" src="script.js"></script>
-
-                        </div>  
-            </div>
-        </div>
+                     <div class="imagemsejoga">
+                         <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
+                             <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
+                         </div>
+                         
+                         <div class="textoimagem-criativo">
+                             <strong>#Criativo</strong>
+                         </div>
+                         
+                         <div class="botaoimagem">
+                             <a href="ative-seu-modo-criativo.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                 <span style="color:yellow;"> SE JOGA >> </span>
+                             </a>
+                         </div>
+                         
+                     </div>
+                     
+                     </div>
+                     
+                   
+                     </div> 
+                 </div> 
+     
                 
-        <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:135px;">
-
-                 <div class="col-lg-6 col-md-12"  style="margin-top: 10px;">
-
-                            <section class="ContainerImagem">
-                                <img src="img/1.jpg" width="510px" >
-                                <div class="baixoEsquerda"><strong>ATIVE O MODO CRIATIVO</strong>
-                                    <hr width = 86%   style="margin-top:-2px;" align = left noshade>
-                                </div>
-                                
-                                <div class="baixoEsquerda-criativo">
-                                    <strong>#Criativo</strong>
-                                </div>
-                                
-                                <div class="baixoDireita">
-                                    <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
-                                        <span style="color:yellow;"> SE JOGA >> </span>
-                                    </a>
-                                </div>
-                                
-                            </section>
-                            
-                            <script type="text/javascript" src="script.js"></script>
-
-                        </div>  
-            </div>
-        </div>
+                 <div class="container col-md-10 col-lg-8" >
+     
+     <div class="row" style="margin-bottom:35px;">      
+         
+         <div class="col-lg-6 col-md-11"  style="margin-top: 10px; ">
+         <div class="imagemsejoga">
+                         <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
+                             <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
+                         </div>
+                         
+                         <div class="textoimagem-criativo">
+                             <strong>#Criativo</strong>
+                         </div>
+                         
+                         <div class="botaoimagem">
+                             <a href="ative-seu-modo-criativo.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                 <span style="color:yellow;"> SE JOGA >> </span>
+                             </a>
+                         </div>
+                         
+                     </div>
+         </div>
+         </div>
+         </div>
         
                     
         

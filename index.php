@@ -4,7 +4,7 @@
     <head>
         <?php session_start();?>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       
         <link rel="shortcut icon"  href="img/LogoSITE.png">
         <link rel="stylesheet" href="css/estilopublica.css" >
         <link rel="stylesheet" href="css/estilo.css" >
@@ -28,7 +28,7 @@
         <div class="container-fluid">
             <div class="row" id="row">
                 <div class="container-fluid" style="width:  100%;">
-                    <img src="img/top.jpg"  width="100%">
+                    <img src="img/home.jpg"  width="100%">
                 </div>
                 
             </div>
@@ -40,28 +40,17 @@
                 <center><strong>O QUE É A COMUNIDADE TOP?</strong></center
             </h1>
             
-            <p align="justify" style="font-size: 16px;margin-top: 45px; font-family: Arial;">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blan.<br><br>
-           
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
-                dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
-                ex ea consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
-                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blan
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blan.</p>
-            <p  align="justify" style="font-size: 15px; margin-bottom: 45px; font-family: Arial;">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
-                dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
-                ex ea consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
-                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blan
-            </p>         
+            <p align="center" style="font-size: 16px;margin-top: 45px; font-family: Arial;">
+
+            COMO SUA COMUNICAÇÃO PODE MUDAR O MUNDO?
+
+</p>
+<p align="justify" style="font-size: 16px; font-family: Arial;letter-spacing: 2px;">
+Se você não conseguiu responder essa pergunta nos 5 primeiros segundos, você chegou no lugar certo.
+Se sentindo sozinho e um peixe fora d´água nessa Era Digital? 
+Você nadou, nadou, e chegou no lugar certo. É um prazer ter você aqui em nossa Arena Educacional de Marketing 360º. Quem chega por aqui chamamos de pinguins e já abraçamos como se fosse da família.
+Chegamos na Era onde você é o responsável por narrar sua jornada. Estamos aqui para te lapidar e lhe ensinar a ser o roteirista da sua história. Através dos nossos cursos você será capaz de transformar sua vida e seu negócio. E quem sabe você não será o próximo pinguim a transformar a vida de outras pessoas? Sim, é possível! Seu conhecimento é a chave para o impossível. 
+Aqui é sobre unir experiências de vida, arte e ciência para impactar o mundo. </p>
          
         </div>
         
@@ -72,7 +61,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
 
-                    <form action=" " method="post" class="form-inline"> 
+                    <form style='display:none;' action=" " method="post" class="form-inline"> 
                         <input class="form-control"  placeholder="Estou Procurando" type="search" id="busca" name="q">
                         <button type="submit" class="btn mb-2" style="background-color: black;color: yellow">Procurar</button>
                     </form>
@@ -87,27 +76,33 @@
        
         
         
-        <div class="container col-md-10 col-lg-8">
+       
+                     <div class="container col-md-10 col-lg-8" >
      
             <div class="row" style="margin-bottom:35px;">      
                 
-                <div class="col-lg-6 col-md-12">
-                    <div style="margin: 10px;">
-                        <img id="imagem" src="img/1.jpg"  width="100" height="357"  >
-                        <div id="texto" align=left><strong>ATIVE O MODO CRIATIVO</strong>
-                            <hr width = 86%   style="margin-top:-2px;" align = left noshade>
-                            <a style=" margin-right: 0px;">#Produzindo-um-baú-de-ideias</a>
-                        
-                             
-                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; margin-left: 30px; ">
-                                <span style="color:yellow;"> SE JOGA >> </span>
-                            </a>
+                <div class="col-lg-6 col-md-12"  style="margin-top: 10px; ">
+
+                            <div class="imagemsejoga">
+                                <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
+                                    <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
+                                </div>
+                                
+                                <div class="textoimagem-criativo">
+                                    <strong>#Criativo</strong>
+                                </div>
+                                
+                                <div class="botaoimagem">
+                                    <a href="ative-seu-modo-criativo" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                        <span style="color:yellow;"> SE JOGA >> </span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            
                           
-                        </div>
-                       
-                    </div>
-                </div>
-                    
+                        </div> 
+                
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div id='formvip'  style="margin-top:10px;">
                         <a id='textolistavip'>UMA NOVA ERA NA <br><span style="font-size:35px;">SUA COMUNICAÇÃO</span></a><br><br>
@@ -116,7 +111,7 @@
                         <br>
 
                         <form action='' id='emailvip' method="post" name="emailvip">
-                            <input required="required" class="form-control" placeholder="seuemail@gmail.com"type="email"  name='email'/>
+                            <input required="required" class="form-control" placeholder="exemplo@exemplo.com"type="email"  name='email'/>
 
                           
 
@@ -134,30 +129,35 @@
         </div>
         
         <!-- botoes-->
-         <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:35px;">
-                    
-                <div class="col-lg-6 col-md-12">
-                    <div style="margin: 10px;">
-                        <img id="imagem" src="img/1.jpg" width="100" height="357"  >
-                        <div id="texto" align=left><strong>ATIVE O MODO CRIATIVO</strong>
-                            <hr width = 86%  style="margin-top:-2px;"  align = left noshade>
-                            <a style=" margin-right: 0px;">#Produzindo-um-baú-de-ideias</a>
-                        
-                             
-                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; margin-left: 30px; ">
-                                <span style="color:yellow;"> SE JOGA >> </span>
-                            </a>
+         <div class="container col-md-10 col-lg-8" >
+     
+            <div class="row" style="margin-bottom:35px;">      
+                
+                <div class="col-lg-6 col-md-12"  style="margin-top: 10px; ">
 
+                            <div class="imagemsejoga2">
+                                <div class="textoimagem"><strong>PROJETOS GRÁFICOS </strong>
+                                    <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
+                                </div>
+                                
+                                <div class="textoimagem-criativo">
+                                    <strong>#Briefing</strong>
+                                </div>
+                                
+                                <div class="botaoimagem">
+                                    <a href="graficos.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                        <span style="color:yellow;"> SE JOGA >> </span>
+                                    </a>
+                                </div>
+                                
+                            </div>
                             
-
-                        </div>
-                    </div>
-                </div>
+                          
+                        </div> 
                     
                     <div class="col-lg-6 col-md-12">
                         <div style=" margin-top: 9px; margin-left: 12px;margin-right: 15px;">
-                            <iframe width="100%" height="359"  src="https://www.youtube.com/embed/p9l6POKbMTk" ></iframe>
+                            <iframe width="100%" height="359" style="border: none;" src="https://www.youtube.com/embed/p9l6POKbMTk" ></iframe>
                         </div>
                     </div>
                     
@@ -165,25 +165,31 @@
          
         </div>
                  
-          <div class="container col-md-10 col-lg-8">
-            <div class="row" style="margin-bottom:35px;">
-                    
-                <div class="col-lg-6 col-md-12">
-                    <div style="margin: 10px" >
-                        <img id="imagem" src="img/1.jpg"  width="100" height="357">
-                        <div id="texto" align=left><strong>ATIVE O MODO CRIATIVO</strong>
-                            <hr width = 86% style="margin-top:-2px;"   align = left noshade>
-                           <a style=" margin-right: 0px;">#Produzindo-um-baú-de-ideias</a>
-                        
-                             
-                            <a href="publica.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; margin-left: 30px; ">
-                                <span style="color:yellow;"> SE JOGA >> </span>
-                            </a>
+        <div class="container col-md-10 col-lg-8" >
+     
+            <div class="row" style="margin-bottom:35px;">      
+                
+                <div class="col-lg-6 col-md-12"  style="margin-top: 10px; ">
+
+                            <div class="imagemsejoga">
+                                <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
+                                    <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
+                                </div>
+                                
+                                <div class="textoimagem-criativo">
+                                    <strong>#Criativo</strong>
+                                </div>
+                                
+                                <div class="botaoimagem">
+                                    <a href="ative-seu-modo-criativo" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                        <span style="color:yellow;"> SE JOGA >> </span>
+                                    </a>
+                                </div>
+                                
+                            </div>
                             
-                        </div>
-                    </div>
-                </div>  
-                    
+                          
+                        </div> 
                     <div class="col-lg-6 col-md-12">
                         <div style="background-color: black; margin-left: 10px;margin-right: 10px;;margin-top: 10px;" id="formVipIndex">
                             

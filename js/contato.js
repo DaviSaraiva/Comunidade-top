@@ -1,24 +1,23 @@
 $(document).ready(function() {
     /// Quando usuário clicar em salvar será feito todos os passo abaixo
-    $('#listavip').click(function() {
+    $('#botaocontato').click(function() {
 
-        var dados = $('#emailvip').serialize();
+        var dados = $('#formulario_vc').serialize();
 
 
 
         $.ajax({
             method: "POST",
-            url: "listavip.php",
+            url: "emailcontato.php",
             data: dados,
             dataType: 'json',
 
             success: function(data) {
                 console.log(data)
                 if (data['vazio'] == false) {
-                    var arquivo = data['arquivo'];
-                    document.getElementById("emailvipsaida").innerHTML = "<br><a>Email Cadastrado com Sucesso! </a><br>";
+                    document.getElementById("emailsaida").innerHTML = "<br><a>Email enviado com Sucesso! </a><br>";
                 } else {
-                    document.getElementById("emailvipsaida").innerHTML = "<a > Preencha o campo acima! </a>";
+                    document.getElementById("emailsaida").innerHTML = "<a > Preencha todos os campos acima! </a>";
                 }
 
 
@@ -26,6 +25,7 @@ $(document).ready(function() {
             },
             error: function(data) {
                 console.log("Erro " + JSON.stringify(data));
+                document.getElementById("emailsaida").innerHTML = "<a > Falha ao enviar! </a>";
 
             }
 

@@ -1,0 +1,14 @@
+#botaop {
+    text-align: center;
+}
+
+#botaocontato {
+    background-color: #ffef00;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+#emailsaida{
+    color: white;
+}
