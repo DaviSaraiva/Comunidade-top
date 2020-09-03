@@ -227,17 +227,17 @@ Quer saber como preparar um bom briefing? Nossa Titã deixa aí do lado um mater
      <div class="row" style="margin-bottom:35px;">      
          
          <div class="col-lg-6 col-md-11"  style="margin-top: 10px; ">
-         <div class="imagemsejoga">
-                         <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
+         <div class="imagemGoogle">
+                         <div class="textoimagem"><strong>Google Analytics</strong>
                              <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
                          </div>
                          
                          <div class="textoimagem-criativo">
-                             <strong>#Criativo</strong>
+                             <strong>#Google</strong>
                          </div>
                          
                          <div class="botaoimagem">
-                             <a href="ative-seu-modo-criativo.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                             <a href="Google-Analytics.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
                                  <span style="color:yellow;"> SE JOGA >> </span>
                              </a>
                          </div>

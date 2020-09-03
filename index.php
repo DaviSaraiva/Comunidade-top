@@ -135,7 +135,7 @@ Aqui é sobre unir experiências de vida, arte e ciência para impactar o mundo.
                 
                 <div class="col-lg-6 col-md-12"  style="margin-top: 10px; ">
 
-                            <div class="imagemsejoga2">
+                            <div class="imagemGrafico">
                                 <div class="textoimagem"><strong>PROJETOS GRÁFICOS </strong>
                                     <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
                                 </div>
@@ -171,17 +171,17 @@ Aqui é sobre unir experiências de vida, arte e ciência para impactar o mundo.
                 
                 <div class="col-lg-6 col-md-12"  style="margin-top: 10px; ">
 
-                            <div class="imagemsejoga">
-                                <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
+                            <div class="imagemGoogle">
+                                <div class="textoimagem"><strong>GOOGLE ANALYTICS</strong>
                                     <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
                                 </div>
                                 
                                 <div class="textoimagem-criativo">
-                                    <strong>#Criativo</strong>
+                                    <strong>#Google</strong>
                                 </div>
                                 
                                 <div class="botaoimagem">
-                                    <a href="ative-seu-modo-criativo" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                                    <a href="Google-Analytics.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
                                         <span style="color:yellow;"> SE JOGA >> </span>
                                     </a>
                                 </div>

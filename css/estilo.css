@@ -95,11 +95,26 @@
     background-size: cover;
     color: white;
 }
-.imagemsejoga2 {
+.imagemGrafico {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/artigo.jpg);
+    max-width: 450px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.imagemGoogle {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/Slid.png);
     max-width: 450px;
     max-height: 400px;
     min-width: 300px;

@@ -53,7 +53,7 @@
 }
     
 </style>
-            <title>Ative seu modo criativo</title>
+            <title>Google Analytics  e sua importância</title>
             
     </head>
     <body>
@@ -64,7 +64,7 @@
         <div class="container-fluid">
             <div class="row" id="row">
                 <div class="container-fluid" style="width:  100%;">
-                    <img src="img/topv.jpg"  width="100%">
+                    <img src="img/Slider_Davi.png"  width="100%">
                 </div>
                 
             </div>
@@ -78,14 +78,14 @@
                 <div class="col-lg-6 col-md-12 col-sm-12" style="background-color: white">
                     <div style="margin:10px;">
                         <h2 style="color:black;">
-                            <strong>Produzindo um baú de ideia</strong>
+                            <strong>Google Analytics  e sua importância</strong>
                             <hr width = 61%   align = left noshade>
                         </h2>
                          
                         
-                        <img src="img/val.jpg" width="90" height="80"  > <span style="margin-left:15px;">Por Valdisa Torres</span>
+                        <img src="img/perfilds.png" width="100" height="100"  > <span style="margin-left:15px;">Por: Davi Saraiva</span>
                        
-                        <a href="https://www.instagram.com/valdisatorres/?hl=pt-br" target="_blank">
+                        <a href="https://www.instagram.com/davisaraiva20/?hl=pt-br" target="_blank">
                             <div>
                                 <img src="img/insta.png" width="30"  style="margin-bottom: 0px;margin-left: 110px;margin-top: -50px">
                             </div>
@@ -100,44 +100,30 @@
                     <div>
                          
                         <p align="justify" style="margin: 10px;font-size: 16px; margin-bottom: 25px;margin-top: 15px; font-family: Arial">
-                    Para começar nossa conversa precisamos entender verdadeiramente o que é criatividade e como ela começa e se desenvolve em cada ser humano.
-                    Resumo a criatividade como a capacidade de fazer combinatividade e gerar conexão entre pontas soltas. Muitos acreditam que nascemos criativos.
-                    Essa é uma verdade absoluta para mim! Imagine uma criança, o quanto uma criança é capaz de desenvolver várias brincadeiras, isso é nossa criatividade falando alto desde cedo. 
-                    Mas com o passar do tempo essa criatividade vai sendo interrompida por vários fatores externos, e para tudo se encaixar novamente no seu devido lugar, precisamos resgatar na memória momentos
-                    criativos do nosso passado, assim podemos ter consciência de que somos sim, seres criativos, e que essa criatividade está apenas bloqueada.
-                    E para que você possa continuar nessa jornada e entrar novamente em um ciclo de criatividade você precisa está disposto a reaprender. 
-                    O reaprendizado requer PAIXÃO E INTERESSE pelo que você faz, pela sua vida e pelo seu trabalho em primeiro lugar.
-                    Em segundo lugar, você precisa construir um ciclo baseado em 6 etapas: CONTEÚDO, COLABORAÇÃO, GRUPOS, DIÁLOGOS, EXPERIÊNCIA E TRANSFORMAÇÃO.         
-                 
+                               Google Analytics é um grande aliado de donos de site, fornecendo relatórios confiáveis, com a base no maior site de busca do mundo o Google.
+                               Em resumo o Google Analytics é, portanto, um gerador de insights com base em dados processados sobre, praticamente, tudo do seu site.
+                               É uma das mais importantes ferramentas de marketing digital, ele permite você entender o comportamento dos que acessam o seu site.
+                               Lembrando que o google disponibiliza o analytics de forma gratuita, sendo assim qualquer pessoal pode ter acesso a essa grande ferramenta.
+                        </p>
+                         <p align="justify" style="margin: 10px;font-size: 16px; margin-bottom: 25px;margin-top: 15px; font-family: Arial">
+                             Vantagens de se utilizar o google analytics:<br>
+                             <strong>Saber a geolocalização de seus usuários:</strong> Ele gera um relatório com dados precisos de geolocalização, informando região, estado, cidade exato de onde seus usuários estão acessando.<br>
+                             <strong>Descobri quanto tempo os usuários ficam no seu site: </strong> Duração Média da Sessão é a métrica que dá sinais do quanto o seu conteúdo é relevante e engajador. <br>
+                             <strong>Taxa de conversão: </strong>quantidade de usuários do seu site que acessaram seu conteúdo e se converteram ao que você queria que eles fizessem.<br>
+                             <strong>Quais canais geram mais leads: </strong>Para melhorar sua performance, seja vender mais, ser mais lido ou contratado, em que canais digitais seria melhor investir? Na produção de conteúdo? Nas redes sociais? No Google Ads? 
+                             Você pode otimizar sua verba de acordo com a relevância de cada canal para o seu negócio.<br>
+                             Q<strong>uais paginas tem mais vistas:</strong> Essas informações são valiosíssimas para você melhorar sua produção de conteúdo.
+
+
                      </p>
-                     <p align="justify" style="margin: 10px;font-size: 16px; margin-bottom: 25px;margin-top: 15px; font-family: Arial">
-                         A primeira característica de uma pessoa criativa é ser observadora. esteja presente, observe como as coisas funcionam, como a natureza se movimenta. 
-                         Você precisa ter sede em criar repertório. a segunda característica de uma pessoa criativa é desenvolver a capacidade de gerar conexões. a partir de uma necessidade, 
-                         um momento de stress, você inicia o seu processo criativo e “consulta” todo seu repertório interno de referências e informações. Para seguir nessa jornada você precisa se identificar 
-                         com o um grupo, para que assim você consiga construir conteúdo de uma bandeira, defender um propósito, provocar uma transformação e ascender sua paixão diária. 
-                         Esteja disposto a transformar e ser transformado pelo ambiente. o nosso amigo Steve Jobs falava que criatividade é pura arte de conectar coisas que você experimenta e transforma.
-                         A transformação vem da capacidade de consolidar diferentes vivências e descobertas.
-                     </p>
-                     <p align="justify" style="margin: 10px;font-size: 16px; margin-bottom: 25px;margin-top: 15px; font-family: Arial">
-                         Se conecte com opiniões distintas. por trás de temas supostamente não afins, existe um verdadeiro mar de possibilidades.
-                         E isso não é de agora meu povo. basta ver a explosão cultural ocorrida na Itália quando a família Médici juntou indivíduos com diferentes habilidades, especialidades e talentos, 
-                         como educadores, cientistas, poetas, filósofos, pintores e arquitetos. Imagine essa cena. todos conversando, interagindo e compartilhando ideias entre si.
-                         o que poderia acontecer? assim nasceu o renascimento, um dos períodos mais criativos da nossa história. A união de indivíduos iguais produz soluções iguais.
-                         Se você vive em um aquário e conversa com os mesmos vizinhos todos os dias, os resultados de hoje serão semelhantes aos de amanhã. 
-                         Estar cercado de profissionais que pensam, agem e vivem como você, se tornou insuficiente para amparar esse mundo cada vez mais variado, sortido e diverso.
-                     </p>
-                     <p align="justify" style="margin: 10px;font-size: 16px; margin-bottom: 65px;margin-top: 15px; font-family: Arial">
-                         <strong> NÃO SE APAIXONE PELA CRIATIVIDADE QUE VOCÊ TEM, MAS PELO BENEFÍCIO QUE SUA CRIATIVIDADE GERA.</strong>
-                     </p>
-                        
-                        
+                  
                         
                      
                     </div>
                     
                     <div>
                         <hr width = 100% align = right  style="height: 1px; background-color: black;"  noshade>
-                        <p><center>#Produzindo-um-baú-de-ideias</center></p>
+                        <p><center>#Google-Analytics-e-sua-importância</center></p>
                         <hr width = 100%  style="height: 1px; background-color: black;"  align = right noshade>
                     </div><br><br><br><br<br><br><br><br>
                     
@@ -165,12 +151,12 @@
 
                     </div>
 
-
+<!--
                     <div id='formvip'>
                         <a id='textobaixar'><center>Me Conectei!</center></a>
                         <a id='textolistabaixarinscreva'><center>Um conteúdo todo seu</center></a><br>
 
-                        <center><img src="img/ebook.jpeg" width="200"  height="200"><br><br>
+                        <center><img src="img/ebookrossi.jpeg" width="200"  height="200"><br><br>
                             <small id="emailHelp" class="form-text text-muted">
                                 <span id="text">Sua jornada continua em 3, 2, 1</span>
                             </small>
@@ -181,7 +167,7 @@
                         <form action='' id='baixar' method="post" name="baixar">
                             <input  required="required" class="form-control" placeholder="exemplo@exemplo.com" type="email"  name='email'/>
 
-                            <input hidden type="text" name="assunto" value="Quemsomos"/>
+                            <input hidden type="text" name="assunto" value="E-book_002-Briefing_Materia_Prima-Por_RossiSousa"/>
                             <div id='erro'></div>
 
                             <button  type="button"  id='baixarconteudo' class=" btn btn-secondary btn-lg btn-block" style="background-color: yellow;margin-top: 30px; border-radius: 2rem;">
@@ -193,6 +179,7 @@
                     </div>
                 </div>
             </div>
+-->
         </div>
         
     </div>       
@@ -218,7 +205,7 @@
          <div class="col-lg-6 col-md-11"  style="margin-top: 10px; ">
 
                      <div class="imagemGrafico">
-                         <div class="textoimagem"><strong>PROJETOS GRÁFICOS</strong>
+                         <div class="textoimagem"><strong>PROJETOS GRÁFICOS </strong>
                              <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
                          </div>
                          
@@ -246,17 +233,17 @@
      <div class="row" style="margin-bottom:35px;">      
          
          <div class="col-lg-6 col-md-11"  style="margin-top: 10px; ">
-         <div class="imagemGoogle">
-                         <div class="textoimagem"><strong>Google Analytics</strong>
+         <div class="imagemsejoga">
+                         <div class="textoimagem"><strong>ATIVE O MODO CRIATIVO</strong>
                              <hr width = "38%"   style="margin-top:-2px;" align = left noshade>
                          </div>
                          
                          <div class="textoimagem-criativo">
-                             <strong>#Googles</strong>
+                             <strong>#Criativo</strong>
                          </div>
                          
                          <div class="botaoimagem">
-                             <a href="Google-Analytics.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
+                             <a href="ative-seu-modo-criativo.php" class="btn btn-primary btn-lg active"  id="botao"role="button" aria-pressed="true" target="_blank" style="background-color: black; border-radius: 5rem; ">
                                  <span style="color:yellow;"> SE JOGA >> </span>
                              </a>
                          </div>
